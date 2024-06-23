@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import Navbar from "../components/Navbar";
 
 export const metadata = {
   title: "Cat Care",
@@ -10,8 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <body>
-        <h1>ass</h1>
-        {children}</body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
